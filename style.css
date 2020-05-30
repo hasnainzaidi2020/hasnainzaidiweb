@@ -1,0 +1,55 @@
+body{
+
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:lightslategray;
+}
+.box{
+width: 400px;
+padding: 60px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color:darkorange;
+text-align: center;
+border-radius: 24px;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 2px solid  cyan;
+display: block;
+margin: 20px auto;
+text-align: center;
+padding: 14px 10px;
+width: 200px;
+color:black;
+border-radius: 24px ;
+}
+
+.box h1{
+text-transform: uppercase;
+font-weight: 500;
+
+}
+.abc{
+    border-radius: 24px ;
+    width: 100px;
+}
+.navbar{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: x-large;
+}
+.navbar-brand{
+font-family:'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: x-large !important;
+
+}
+.hasnain{
+    background-color: lightslategray !important;
+}
